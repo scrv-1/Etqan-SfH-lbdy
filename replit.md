@@ -1,45 +1,24 @@
-# [Project name]
+# Etqan — قواعد نطاق المشروع
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+هذا المشروع بداية فقط، وليس المنتج الكامل. الاسم Etqan مؤقت، ولا يحدد مجالًا أو وظيفة للمنتج.
 
-## Run & Operate
+## النطاق المعتمد
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- صفحة رئيسية واحدة بالعربية، باتجاه RTL، ممتازة على الجوال والكمبيوتر.
+- HTML وCSS قياسيان فقط، والتنسيق مضمن في `index.html`.
+- المحتوى: اسم Etqan، عنوان «الإتقان يبدأ من هنا»، وصف قصير ومحايد «ابدأ رحلتك نحو عملٍ أكثر إتقانًا.»، وزر CTA واحد بنص «ابدأ».
+- زر «ابدأ» بلا وظيفة أو وجهة. لا تخترع له سلوكًا أو أي ميزة أخرى.
+- تصميم نظيف وبسيط، بلا مؤثرات أو أقسام إضافية.
+- لا JavaScript أو مكتبات أو إطار عمل أو Backend أو قاعدة بيانات أو تسجيل دخول أو AI أو API أو تكاملات.
+- لا اعتماديات خارجية، بما فيها الخطوط الخارجية.
+- لا تضف ملفات أو خدمات غير ضرورية ولا تخزن أسرارًا.
+- حافظ على سهولة النقل خارج Replit. ملفات المشروع المطلوبة هي `index.html` و`README.md` و`replit.md` فقط.
+- ملفات وخدمات القالب الموجودة مسبقًا ليست جزءًا من Etqan؛ لا تعتمد عليها ولا تشغّلها لهذه الصفحة.
 
-## Stack
+## التشغيل والنقل
 
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
+افتح `index.html` مباشرة في المتصفح. لا يوجد تثبيت أو بناء أو خادم مطلوب. للنقل إلى GitHub، ارفع الملفات الثلاثة فقط كما يوضح `README.md`.
 
-## Where things live
+## تعليمات المحادثات القادمة
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
-
-## Architecture decisions
-
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
-
-## Product
-
-_Describe the high-level user-facing capabilities of this app once they exist._
-
-## User preferences
-
-_Populate as you build — explicit user instructions worth remembering across sessions._
-
-## Gotchas
-
-_Populate as you build — sharp edges, "always run X before Y" rules._
-
-## Pointers
-
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+توقف بعد هذه المرحلة. لا توسّع النطاق أو تضف وظائف أو أقسامًا أو خدمات إلا بطلب صريح جديد من المستخدم.

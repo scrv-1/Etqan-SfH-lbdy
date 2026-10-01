@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "cbRIzefXh-nc7SfC9DkqD"
+uri = "file://index.html"
+type = "html"
+title = "Etqan — الصفحة الرئيسية"
+description = "صفحة عربية RTL مستقلة باستخدام HTML وCSS فقط، تعمل مباشرة في المتصفح دون تثبيت أو خدمات خارجية."
+logical_id = "9cbe2b49-7a0f-487e-991d-1767be1c2acb"
+content_hash = "sha256:d1b015b7f82c78c28144b56382975b4da1059c1f3b9d97fa99f70acd98941188"
+size = 2803
+mtime_ms = 1790895354587
+storage_uri = "gcs://replit-rams-assets-pike/rams/assets/repl:d9f672c2-3522-4c59-839c-f6db55092d3c/9cbe2b49-7a0f-487e-991d-1767be1c2acb/d82d23fe-dfb7-4a6e-8abb-8827f68080ee"
+storage_version_token = "1790895387664308"
+content_type = "text/html"
